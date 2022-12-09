@@ -1,0 +1,132 @@
+.slider{
+  
+  position: relative;
+  width: 100%;
+  height: 400px;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  border: 6px solid #5f487a68;
+  border-radius: 8px;
+  box-shadow: -1px 5px 15px black;
+  // transform: translate(0%,0%);
+  // top: 50%;
+  // left: 50%;
+  
+  i{
+    font-size: 5vw;
+    color: rgba(148, 131, 148, 0.285);
+  }
+
+}
+
+
+img{
+  width: 100%;
+}
+
+.slide{
+  // position: relative;
+  
+  min-width: 100%;
+  height: 400px;
+  transition: 0.5s;
+  overflow: hidden;
+  // width: 100%;
+  display: flex;
+  animation: Slide 42s infinite;
+}
+
+%btn-styles{
+  position: absolute;
+  // top: 50%;
+  
+  // transform: translateY(-50%);
+  width: 10%;
+  height: 400px;
+  background: none;
+  border: none;
+  outline: none;
+  transition: 0.5s;
+  &:hover{
+    background: rgba(196, 109, 109, 0.239);
+    cursor: pointer;
+    i{
+      color: rgba(152, 125, 125, 0.468);
+    }
+  }
+}
+#goLeft{
+  left: 0;
+ @extend %btn-styles;
+
+}
+#goRight{
+ right: 0;
+ @extend %btn-styles;
+}
+
+@keyframes Slide{
+  0%{
+      transform: translateX(0);
+  }
+  6%{
+      transform: translateX(0);
+  }
+  12%{
+      transform: translateX(-100%);
+  }
+  18%{
+      transform: translateX(-100%);
+  }
+  24%{
+      transform: translateX(-200%);
+  }
+  30%{
+      transform: translateX(-200%);
+  }
+  36%{
+      transform: translateX(-300%);
+  }
+  43%{
+      transform: translateX(-300%);
+  }
+  50%{
+      transform: translateX(-400%);
+  }
+  56%{
+      transform: translateX(-400%);
+  }
+  62%{
+      transform: translateX(-500%);
+  }
+  68%{
+      transform: translateX(-500%);
+  }
+  
+  74%{
+      transform: translateX(-600%);
+  }
+  80%{
+      transform: translateX(-600%);
+  }
+  86%{
+      transform: translateX(-700%);
+  }
+  93%{
+      transform: translateX(-700%);
+  }
+  100%{
+      transform: translateX(-700%);
+  }
+}
+
+
+
+
+
+
+

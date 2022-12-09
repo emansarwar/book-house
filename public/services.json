@@ -1,0 +1,58 @@
+[
+    {
+        "id": 1,
+        "name": "Full Free Law Facilities",
+        "price": "Free",
+        "description": "Free law facilities only for economically weak people. Everybody can't apply for this aid. The persons which are economically weak but they don't well characterized or stay with guilty persons or culprits are not allowed for this services.",
+        "img": "./img/male1.png" 
+    },
+    {
+        "id": 2,
+        "name": "Legal Aid for Human Rights",
+        "price": "300USD",
+        "description": "This law facilities  are only for human rights. Human Rights related problems like-(gov't kidnapping, tyranny to weak people by powerful people) are included the service.",
+        "img": "./img/lawyerfemale1.png" 
+    },
+    {
+        "id": 3,
+        "name": "Legal Aid for a Company or Industry",
+        "price": "Negotiable & Considerable",
+        "description": "In every company or industry, they hire a lawyer due to maintain government law & another law. By the  lawyer they can solve the legal problem",
+        "img": "./img/lawyerfemale3.png" 
+    },
+    {
+        "id": 4,
+        "name": "Legal Aid for Refugee",
+        "price": "100USD",
+        "description": "In this services, only Refugee related legally problem be solved. Besides, they can get advises about directions and destinations.",
+        "img": "./img/male2.png" 
+    },
+    {
+        "id": 5,
+        "name": "Women Empowerment Services",
+        "price": "Free",
+        "description": "By this services, the movement of women empowerment be strengthened by march, procession & regular meeeting. Legal help be served freely.",
+        "img": "./img/male4.png" 
+    },
+    {
+        "id": 6,
+        "name": "Internee Services for Junior Lawyer",
+        "price": "Free",
+        "description": "Internee is the most important part for any law graduate. Any law graduate student can take the service.",
+        "img": "./img/lawyerfemale7.png" 
+    },
+    {
+        "id": 7,
+        "name": "Law Facilities against Eve-Teasing",
+        "price": "250USD",
+        "description": "Eve-teasing is the most vulnerable and dangerous accident in our society. We have to eradicate it from the root. So anyone can take the service.",
+        "img": "./img/lawyerfemale5.png" 
+    },
+    {
+        "id": 8,
+        "name": "Legal Aid against Digital Security Law",
+        "price": "250USD",
+        "description": "Nowadays digital security law is happening widely. Every government take step against this problem. If anyone break the digital security law he has to go to jail and stay limitted time considered by the judge.",
+        "img": "./img/lawyerfemale9.png" 
+    }
+]

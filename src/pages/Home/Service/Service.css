@@ -1,0 +1,64 @@
+.name{
+  /* display: grid; */
+  /* grid-template-columns:1fr 2fr; */
+  width: 100%;
+}
+.book-btn{
+  width:100%;
+  padding: 5px;
+  border-radius: 10px;
+  background-color: rgba(124, 93, 124, 0.359);
+  border: none;
+}
+
+.Name-title{
+  border-bottom: 2px solid rgb(128, 128, 128);
+  width: 100%;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.Name{
+  
+  width: 100%;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+.service-container{
+    width: 92%;
+    /* padding-left: ; */
+    margin-left: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    /* transform: scale(1.2); */
+    transition: .1s;
+    background-color: rgba(116, 172, 153, 0.998);
+    /* border-bottom: 1px solid rgb(177, 74, 19);
+    border-left: 1px solid rgb(177, 74, 19);
+    border-right: 1px solid rgb(177, 74, 19); */
+    border-radius: 15px;
+   
+}
+.service-information{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    text-align: justify;
+    
+    /* border-bottom: 1px solid rgb(177, 74, 19);
+    border-left: 1px solid rgb(177, 74, 19);
+    border-right: 1px solid rgb(177, 74, 19); */
+    
+}
+
+.service-container:hover{
+    transform: scale(1.1);
+}
+.img-container{
+    
+    width: 100%;
+    height: 500px;
+    /* border-radius: 10px; */
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}

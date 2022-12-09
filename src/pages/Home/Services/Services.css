@@ -1,0 +1,42 @@
+
+
+  .services-container{
+    
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    
+}
+/* .services-fullcontainer{
+  background-color: rgba(140, 158, 152, 0.616);
+  border-radius: 15px;
+
+} */
+  
+ 
+
+
+.services-header{
+    text-align: center;
+    background-color: rgba(195, 27, 77, 0.368);
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    padding: 10px;
+    color: rgb(25, 10, 48);
+    font-family: 'Times New Roman', Times, serif;
+    /* margin-top: 500px; */
+}
+
+@media screen and (max-width:1100px) {
+  .services-container{
+        
+    grid-column: auto;
+  grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width:760px) {
+    .services-container{
+      
+    grid-template-columns: repeat(1, 1fr);
+    }
+}

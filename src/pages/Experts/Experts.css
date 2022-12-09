@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  
+ 
+.experts-header{
+    text-align: center;
+    background-color: rgba(250, 76, 7, 0.349);
+    padding: 5px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    color: rgba(200, 40, 139, 0.71);
+    font-family: 'Times New Roman', Times, serif;
+}
+.experts-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-left: 10px;
+}
+
+@media screen and (max-width:1100px) {
+  .experts-container{
+        
+    grid-column: auto;
+  grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width:760px) {
+    .experts-container{
+      
+    grid-template-columns: repeat(1, 1fr);
+    }
+}
