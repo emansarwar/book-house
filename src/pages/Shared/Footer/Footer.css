@@ -1,3 +1,19 @@
+.footer-body{
+    background-color: rgb(147, 158, 154);
+}
+
+
+
 .footer-css{
-    text-align: center;
+    margin-left: 30px;
+    margin-right: 30px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-logo-img{
+    width: 30px;
+    height: 30px;
+    margin-left: 20px;
 }

@@ -8,9 +8,9 @@ const Expert = ({ expert }) => {
       <img className="img-expert" src={img} alt="" />
       <div className="expert-information">
         <h4 className="Name-title">Name: {name}</h4>
-        {/* <h4 className="Name"> </h4> */}
+        
         <p>
-          <bold className="bold">Description:</bold> {description}
+          <span className="bold">Description:</span> {description} 
         </p>
       </div>
     </div>

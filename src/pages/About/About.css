@@ -1,0 +1,11 @@
+.about-heading{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    justify-content: center;
+    text-align: justify;
+}
+.about-full-heading{
+    margin: 40px;
+}
+.about-p{
+    text-align: justify;
+}

@@ -22,8 +22,7 @@ const Service = ({ service }) => {
           <p>Price: {price}</p>
         </div>
         <div>
-          <p>
-            <bold>Description</bold> <small>: {description}</small>
+          <p>Description<small>: {description}</small>
           </p>
         </div>
 

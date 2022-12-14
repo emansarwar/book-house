@@ -10,7 +10,10 @@
 }
 
 
-
+.header-weight{
+    /* color: rgb(197, 129, 129); */
+    font-weight: 500;
+}
 
 
 .header-image{

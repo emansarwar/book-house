@@ -3,8 +3,7 @@ import "./App.css";
 import About from "./pages/About/About";
 import Home from "./pages/Home/Home/Home";
 import Header from "./pages/Shared/Header/Header";
-// import Services from './pages/Home/Services/Services';
-// import Header from './pages/Shared/Header/Header';
+
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.scss";
 import Footer from "./pages/Shared/Footer/Footer";
@@ -14,6 +13,9 @@ import Login from "./pages/Login/Login";
 import Register from "./pages/Register/Register";
 import Checkout from "./pages/Checkout/Checkout/Checkout";
 import RequireAuth from "./pages/Login/RequireAuth/RequireAuth";
+import Services from "./pages/Home/Services/Services";
+import Experts from "./pages/Experts/Experts";
+
 
 function App() {
   return (
@@ -23,6 +25,9 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />}></Route>
         <Route path="/home" element={<Home />}></Route>
+        <Route path="/services" element={<Services/>}></Route>
+        <Route path="/experts" element={<Experts />}></Route>
+        
         <Route path="/service/:serviceId" element={<ServiceDetail />}></Route>
         <Route path="/about" element={<About />}></Route>
         <Route path="/login" element={<Login />}></Route>
