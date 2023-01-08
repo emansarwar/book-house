@@ -2,13 +2,19 @@ import { useEffect, useState } from 'react';
 
 const useServices = () => {
     const [services, setServices] = useState([]);
-
+    
     
 
     useEffect( ()=>{
-        fetch('services.json')
+        fetch('http://localhost:5000/service')
         .then(res => res.json())
-        .then(data => setServices(data)); 
+        .then(data => setServices(data))
+            // const jsonData = JSON.parse(data);
+            
+        
+            
+        
+        
     } ,[]);
 
     return [services, setServices];

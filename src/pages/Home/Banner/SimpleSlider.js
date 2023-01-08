@@ -9,9 +9,9 @@ import banner3 from "./img-banner/banner3.png";
 
 import banner4 from "./img-banner/banner4.png";
 import banner5 from "./img-banner/banner5.png";
-import banner6 from "./img-banner/banner6.png";
-import banner7 from "./img-banner/banner7.png";
-import banner8 from "./img-banner/banner8.png";
+// import banner6 from "./img-banner/banner6.png";
+// import banner7 from "./img-banner/banner7.png";
+// import banner8 from "./img-banner/banner8.png";
 
 import ImgComp from "./ImgComp";
 
@@ -23,11 +23,8 @@ function SimpleSlider() {
     <ImgComp src={banner2} />,
     <ImgComp src={banner3} />,
     <ImgComp src={banner4} />,
-    <ImgComp src={banner5} />,
-    <ImgComp src={banner6} />,
-    <ImgComp src={banner7} />,
+    <ImgComp src={banner5} />
     
-    <ImgComp src={banner8} />,
   ];
   // const goLeft = () => {
     
@@ -39,13 +36,15 @@ function SimpleSlider() {
   // };
   return (
     <div className="slider">
-      {sliderArr.map((item, index) => {
+      {
+      sliderArr.map((item, index) => {
         return (
           <div key={index} className="slide" >
             {item}
           </div>
         );
-      })}
+      })
+      }
       {/* <button id="goLeft" onClick={goLeft}>
         <i class="fas fa-chevron-left"></i>
       </button>

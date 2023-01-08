@@ -3,13 +3,12 @@ import { useEffect } from 'react';
 import { useState } from 'react';
 
 const useExperts = () => {
-    
     const [experts, setExperts] = useState([]);
 
     
 
     useEffect( ()=>{
-        fetch('Experts.json')
+        fetch('experts.json')
         .then(res => res.json())
         .then(data => setExperts(data)); 
     } ,[]);

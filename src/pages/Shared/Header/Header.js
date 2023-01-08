@@ -4,7 +4,7 @@ import "./Header.scss";
 // import Container from "react-bootstrap/Container";
 // import Nav from "react-bootstrap/Nav";
 // import Navbar from "react-bootstrap/Navbar";
-import { Button, Container, Nav, Navbar, NavDropdown } from "react-bootstrap";
+import { Button, Container, Nav, Navbar } from "react-bootstrap";
 import HeaderImg from "./img-header/header-img2.png";
 import { Link } from "react-router-dom";
 import { useAuthState } from "react-firebase-hooks/auth";
@@ -26,9 +26,9 @@ const Header = () => {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto   header-weight">
-            <Nav.Link href="home">HOME</Nav.Link>
-            <Nav.Link href="services">SERVICES</Nav.Link>
-            <Nav.Link   href="experts">EXPERTS</Nav.Link>
+            <Nav.Link as={Link} to="home">HOME</Nav.Link>
+            <Nav.Link as={Link} to="books">BOOKS</Nav.Link>
+            <Nav.Link  as={Link} to="writters">WRITTERS</Nav.Link>
             {/* <NavDropdown title="Others" id="collasible-nav-dropdown">
               <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
